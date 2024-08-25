@@ -4,7 +4,7 @@ import google.generativeai as genai
 from database import search_items
 
 # Configure the Gemini API (make sure to set your API key in the environment variables)
-genai.configure(api_key="AIzaSyD3kFTAAPuQvos29RBY5n_AtFcuHUpCvN8")
+genai.configure(api_key="ENTER_YOUR_API_KEY")
 
 def get_outfit_recommendation(prompt):
     # Retrieve relevant items from the database
