@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Configure the Gemini API (make sure to set your API key in the environment variables)
-genai.configure(api_key="AIzaSyD3kFTAAPuQvos29RBY5n_AtFcuHUpCvN8")
+genai.configure(api_key="ENTER_YOUR_API_KEY")
 
 def analyze_image(image_bytes):
     # Convert bytes to PIL Image
